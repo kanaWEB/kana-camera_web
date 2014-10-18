@@ -1,1 +1,1 @@
-Contrôle la caméra et capture des images
+Prend une image à partir d'une caméra web

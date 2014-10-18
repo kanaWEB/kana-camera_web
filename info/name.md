@@ -1,1 +1,1 @@
-Kana Camera
+Web Camera

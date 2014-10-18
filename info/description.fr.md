@@ -1,1 +1,1 @@
-Allumer/éteindre un ordinateur et le contrôler avec VNC
+Voir une caméra web générique

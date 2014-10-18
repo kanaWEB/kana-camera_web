@@ -1,1 +1,1 @@
-Control motor and take snapshot
+Take snapshot from a web camera

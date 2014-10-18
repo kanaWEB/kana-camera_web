@@ -1,1 +1,1 @@
-Turn on/off computers and control them with VNC
+See generic web camera
