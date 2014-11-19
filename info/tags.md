@@ -1,0 +1,1 @@
+ip camera,camera,webcam,video

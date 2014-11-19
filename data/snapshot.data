@@ -1,7 +1,7 @@
 <?php
 
 $id = $_["id"];
-$db_camera = new Entity("camera_web");
+$db_camera = new Entity("config","camera_web");
 $camera_info = $db_camera->load([
 	"id" => $id
 	]);
