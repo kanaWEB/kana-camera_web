@@ -1,1 +1,0 @@
-See generic web camera

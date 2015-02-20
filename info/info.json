@@ -1,0 +1,11 @@
+{
+   "description" : "See generic web camera",
+   "name" : "Web Camera",
+   "tags" : {
+      "ip camera" : {},
+      "camera" : {},
+      "webcam" : {},
+      "video" : {}
+   },
+   "type" : "camera"
+}

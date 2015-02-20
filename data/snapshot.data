@@ -1,10 +1,15 @@
 <?php
 
 $id = $_["id"];
+$db_camera_actions = new Entity("actions","camera_web");
+$camera_actions = $db_camera_actions->load([
+	"id" => $id
+]);
+
 $db_camera = new Entity("config","camera_web");
 $camera_info = $db_camera->load([
-	"id" => $id
-	]);
+	"id" => $camera_actions["object_key"]
+]);
 
 /*
 var_dump("http://".$camera_info["cam_user"].":".$camera_info["cam_pass"]."@".$camera_info["ipaddress"]."/".$camera_info["url"]);
@@ -30,10 +35,11 @@ curl_setopt($ch, CURLOPT_HTTPHEADER, array(
 );
 
 $image_raw = curl_exec($ch);
+
 $image_base64 = base64_encode($image_raw);
 
 curl_close($ch);
-echo $image_base64;
+echo 'data:image/jpeg;base64,'.$image_base64;
 
 
 ?>

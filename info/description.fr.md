@@ -1,1 +1,0 @@
-Voir une caméra web générique

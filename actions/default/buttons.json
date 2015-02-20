@@ -1,0 +1,24 @@
+{
+	"buttons" : [
+	{
+		"name": "Take a picture with ",
+		"color" : "primary",
+		"icon" : "glyphicon-camera",
+		"command" : "default",
+		"state" : 1,
+		"effect" : {
+			"type" : "state_img(this,'camera_web/snapshot')"
+		}
+	},
+	{
+		"name": "Go to camera",
+		"color" : "warning",
+		"icon" : "glyphicon-link",
+		"command" : "default",
+		"state" : 1,
+		"effect" : {
+			"type" : "button_link_data(this,'camera_web/ip')"
+		}
+	}
+]
+}
