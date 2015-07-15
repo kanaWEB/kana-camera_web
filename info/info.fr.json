@@ -7,5 +7,6 @@
       "webcam",
       "video"
    ],
+   "json" : "Emails",
    "type" : "camera"
 }
