@@ -1,3 +1,2 @@
 #!/bin/bash
-. /opt/piget/core/install/extendPath
-installer php5-curl
+/system/install php5-curl
